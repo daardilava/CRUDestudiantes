@@ -72,7 +72,7 @@ public class EstudianteDAO {
     
     //Metodo actualizar
     public void actualizar(Estudiante estudiante){
-        String sql = "update estudiante set tipoID=?, numeroID=?, nombre=?, apellido=?, usuario=?, contraseña=?, movil=?, email=? where id=?";
+        String sql = "update estudiante set tipoID=?, numeroID=?, nombre=?, apellido=?, usuario=?, contraseña=?, movil=?, email=? where code=?";
         try {
             con = conexion.conectarBaseDatos();
             ps = con.prepareStatement(sql);

@@ -4,7 +4,6 @@
  */
 package controlador;
 
-import com.sun.source.tree.IfTree;
 import java.awt.Dimension;
 import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
